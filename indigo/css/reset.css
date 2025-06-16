@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* 초기화 */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{vertical-align: top;}
+
+body{
+    font-family: "Archivo Black", sans-serif;
+}
+
+hr{
+    height: 2px;
+    border: 0;
+    display: block;
+    background-color: #ddd;
+}
+
+input, textarea{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #777;
+    color: black;
+    font-size: 12px;
+}
+
+::-moz-input-placeholder,::-webkit-input-placeholder{
+    color: #3f51b5
+}
+
+::-moz-textarea-placeholder,::-webkit-textarea-placeholder{
+    color: #3f51b5
+}
+
+/* 웹폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+

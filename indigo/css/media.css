@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+/* 반응형 */
+
+@media screen and (max-width:1000px) {
+    
+    /* header ------------------------------------------------------- */
+    .header nav{
+        display: none;
+    }
+
+    .header .menu-toggle-btn{
+        display: block;
+    }
+
+    .slider li.sd_01 h2{
+        left: 50%;
+        transform: translate(-50%,-50%)
+    }
+    .slider li.sd_02 h2{
+        left: 50%;
+        transform: translate(-50%,-50%)
+    }
+    .slider li.sd_03 h2{
+        right: 50%;
+        transform: translate(50%,-50%)
+    }
+    
+
+
+
+
+
+
+
+    /* content ------------------------------------------------------ */
+    .weare{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec_title{
+        margin-bottom: 30px;
+    }
+
+    .cont_box{
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cont_box::before{
+        display: none;
+    }
+
+    .weare_list{
+        flex-direction: column;
+    }
+
+    .weare_list li{
+        padding: 20px;
+    }
+
+
+
+
+
+
+    /* work ------------------------------------------------------ */
+    .work{
+        text-align: center;
+    }
+    
+    .work_list li{
+        width: 50%;
+    }
+
+
+
+
+
+
+
+    
+    /* blog ------------------------------------------------------ */
+    .blog{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog .blog_list{
+        flex-direction: column;
+
+    }
+
+    .blog .blog_list li{
+        margin-bottom: 20px;
+    }
+
+    .blog .blog_list li:last-child{
+        padding-right: 20px !important;
+    }
+    
+    .blog .blog_list li:first-child{
+        padding-left: 20px !important;
+    }
+
+
+
+
+
+
+
+
+    /* contact_content ------------------------------------------------------ */
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_box{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:500px) {
+
+    /* work ------------------------------------------------------ */
+    .work_list li{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    /* contact_content ------------------------------------------------------ */
+    .form1{
+        width: 100%;
+    }
+    .form2{
+        width: 100%;
+    }
+
+}
